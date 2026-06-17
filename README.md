@@ -1,20 +1,19 @@
-在国内访问 GitHub，最常用且有效的方法是通过第三方镜像站或代理服务。需要注意的是，这些方法主要是为了加速访问和下载，多数不支持登录账号或进行Star、Fork等需要身份验证的操作。
+ 你的链接怎么改？
+你的文件链接是：
+https://github.com/9602894/feifeicangku/blob/main/%E8%82%A5%E7%8C%AB/api.json
 
-针对你提供的链接 https://github.com/9602894/feifeicangku/blob/main/%E8%82%A5%E7%8C%AB/api.json，它是一个文件链接。最快的访问方式有以下几种：
+但是注意：你给的示例是一个 raw 文件链接（raw.githubusercontent.com），可以直接获取文件内容。而你的链接是 GitHub 的网页浏览链接（github.com.../blob/...）。
 
-🚀 方法一：使用镜像站访问（最推荐）
-镜像站完整复刻了 GitHub 的界面，可以直接在浏览器中打开。
+如果你想直接获取 api.json 这个文件的内容，需要先把它转换成 raw 链接，再加代理前缀。
 
-直接替换域名：将原链接中的 github.com 替换为镜像站域名。
+转换规则很简单：把链接里的 github.com 换成 raw.githubusercontent.com，并去掉 /blob。
 
-可用镜像站：
+你的原始链接：
+https://github.com/9602894/feifeicangku/blob/main/%E8%82%A5%E7%8C%AB/api.json
 
-https://bgithub.xyz
+转换后的 raw 链接：
+https://raw.githubusercontent.com/9602894/feifeicangku/main/%E8%82%A5%E7%8C%AB/api.json
 
-https://kgithub.com
+加上 gh-proxy.com 前缀的最终加速链接：
+https://gh-proxy.com/https://raw.githubusercontent.com/9602894/feifeicangku/main/%E8%82%A5%E7%8C%AB/api.json
 
-https://gitclone.com
-
-操作示例：将你的链接改为：
-https://bgithub.xyz/9602894/feifeicangku/blob/main/%E8%82%A5%E7%8C%AB/api.json
-直接复制到浏览器即可访问
